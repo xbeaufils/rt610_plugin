@@ -1,0 +1,14 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+  package="fr.nemesys.rt610_plugin">
+    <!-- application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" -->
+    <application >
+    <meta-data android:name="io.sentry.dsn" android:value="https://4d2738e6799b4264b3dfb02bcf364fb6@o406124.ingest.sentry.io/5373317" />
+    <service android:name="fr.nemesys.service.rfid.RFIDService" android:exported="true"/>
+    </application>
+</manifest>
